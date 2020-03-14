@@ -1,0 +1,23 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "DATASS_VISOR_8411": {
+      "selected": true
+    },
+    "DATASS_VISOR_7394": {
+      "selected": true
+    },
+    "Capas_de_Informacion_Base_3088": {
+      "selected": false
+    },
+    "DATASS_VISOR_2803": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

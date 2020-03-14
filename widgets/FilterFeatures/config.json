@@ -1,0 +1,17 @@
+{
+  "departamento": {
+    "id": "",
+    "label": "",
+    "value": ""
+  },
+  "provincia": {
+    "id": "",
+    "label": "",
+    "value": ""
+  },
+  "distrito": {
+    "id": "",
+    "label": "",
+    "value": ""
+  }
+}

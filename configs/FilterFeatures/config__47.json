@@ -1,0 +1,31 @@
+{
+  "departamento": {
+    "id": "Capas_de_Informacion_Base_3088_14",
+    "label": "nom_dep",
+    "value": "id_dpto"
+  },
+  "provincia": {
+    "id": "Capas_de_Informacion_Base_3088_15",
+    "label": "nom_prov",
+    "value": "id_prov"
+  },
+  "distrito": {
+    "id": "Capas_de_Informacion_Base_3088_16",
+    "label": "nom_dist",
+    "value": "id_dist"
+  },
+  "features": {
+    "keyff_1": {
+      "id": "DATASS_VISOR_2803_2",
+      "field": "ubigeo_ccpp"
+    },
+    "keyff_2": {
+      "id": "DATASS_VISOR_2803_3",
+      "field": "ubigeo_ccpp"
+    },
+    "keyff_3": {
+      "id": "DATASS_VISOR_2803_4",
+      "field": "ubigeo_ccpp"
+    }
+  }
+}

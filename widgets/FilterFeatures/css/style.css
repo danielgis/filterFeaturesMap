@@ -1,0 +1,57 @@
+.filter-features h3 {
+  font-size: 1.2em;
+}
+.filter-features h3, p {
+  margin-top: 0;
+}
+/* add additional custom styles */
+
+.selectFilter{
+	width: 100%;
+}
+
+#containerButtonsff{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.clsbuttonFiltrarff{
+	width: 50%;
+}
+
+.dijitButtonNode{
+	width: 100%;
+}
+
+.clsbuttonNuevoFiltroff{
+	width: 24%;
+}
+
+.clsbuttonAgregarFiltroff{
+	width: 24%;
+}
+
+
+.loaderff {
+  visibility: hidden;
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

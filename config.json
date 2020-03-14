@@ -1,0 +1,432 @@
+{
+  "theme": {
+    "name": "BillboardTheme",
+    "styles": [
+      "default",
+      "purple",
+      "blue",
+      "turquoise",
+      "green",
+      "orange",
+      "red",
+      "pink"
+    ],
+    "version": "2.15",
+    "sharedTheme": {
+      "useHeader": false,
+      "useLogo": false,
+      "isPortalSupport": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": ""
+    }
+  },
+  "portalUrl": "http://www.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "cluster_app",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 60,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_Search_Widget_39",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 10,
+          "left": 15,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_ZoomSlider_Widget_40",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 15,
+          "top": 80,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_HomeButton_Widget_41",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 15,
+          "top": 120,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_MyLocation_Widget_42",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 15,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_Scalebar_Widget_43",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 15,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_Coordinate_Widget_44",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_OverviewMap_Widget_45",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.15",
+        "id": "widgets_Splash_Widget_46",
+        "name": "Splash"
+      },
+      {
+        "position": {
+          "left": 60,
+          "top": 53,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_47",
+        "name": "FilterFeatures",
+        "version": "0.0.1",
+        "closeable": true,
+        "IsController": false,
+        "uri": "widgets/FilterFeatures/Widget",
+        "config": "configs/FilterFeatures/config__47.json"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 53,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_48",
+        "name": "BasemapGallery",
+        "version": "2.15",
+        "closeable": true,
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config__48.json"
+      },
+      {
+        "position": {
+          "left": 150,
+          "top": 53,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_49",
+        "name": "LayerList",
+        "version": "2.15",
+        "closeable": true,
+        "uri": "widgets/LayerList/Widget",
+        "config": "configs/LayerList/config__49.json"
+      },
+      {
+        "position": {
+          "left": 195,
+          "top": 53,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_50",
+        "name": "Legend",
+        "version": "2.15",
+        "closeable": true,
+        "uri": "widgets/Legend/Widget",
+        "config": "configs/Legend/config__50.json"
+      },
+      {
+        "position": {
+          "left": 240,
+          "top": 53,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_51"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "left": 15,
+          "top": 159,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_ExtentNavigate_Widget_52",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "right": 8,
+          "top": 8,
+          "relativeTo": "map"
+        },
+        "version": "2.15",
+        "id": "widgets_FullScreen_Widget_53",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "37feb1948a9d4e0ea73acca879b5cf4e",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "http://www.arcgis.com",
+    "appProxy": {
+      "mapItemId": "37feb1948a9d4e0ea73acca879b5cf4e",
+      "proxyItems": []
+    }
+  },
+  "widgetPool": {
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.15",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.15",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "GroupFilter",
+        "version": "2.15",
+        "uri": "widgets/GroupFilter/Widget",
+        "config": "configs/GroupFilter/config_widgets_GroupFilter_Widget_37.json",
+        "index": 4,
+        "id": "widgets_GroupFilter_Widget_37"
+      },
+      {
+        "name": "FilterFeatures",
+        "version": "0.0.1",
+        "IsController": false,
+        "uri": "widgets/FilterFeatures/Widget",
+        "config": "configs/FilterFeatures/config_widgets_FilterFeatures_Widget_38.json",
+        "index": 6,
+        "id": "widgets_FilterFeatures_Widget_38"
+      }
+    ],
+    "groups": [],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 60,
+            "top": 10
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "top": 10,
+            "left": 15
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "left": 15,
+            "top": 80
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "position": {
+            "left": 15,
+            "top": 120
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 15,
+            "bottom": 25,
+            "relativeTo": "map"
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 15,
+            "bottom": 5,
+            "relativeTo": "map"
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.15"
+        },
+        {
+          "position": {
+            "left": 60,
+            "top": 53,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 105,
+            "top": 53,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 150,
+            "top": 53,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 195,
+            "top": 53,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 240,
+            "top": 53,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "left": 15,
+            "top": 159
+          },
+          "version": "2.15"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 8,
+            "top": 8
+          },
+          "version": "2.15"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.15",
+  "isWebTier": false,
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "appItemId": "bcb4a1d778f343058ac1938b52a0e1d4"
+}

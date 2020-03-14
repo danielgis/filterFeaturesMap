@@ -1,0 +1,150 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "DATASS_VISOR_8411": {
+      "display": true
+    },
+    "DATASS_VISOR_7394": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_0": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_1": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_2": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_3": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_4": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_5": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_6": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_7": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_8": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_9": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_10": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_11": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_12": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_13": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_14": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_15": {
+      "display": true
+    },
+    "Capas_de_Informacion_Base_3088_16": {
+      "display": true
+    },
+    "DATASS_VISOR_2803": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_0": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_1": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_2": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_3": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_4": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_5": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_6": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_7": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_8": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_9": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_10": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_11": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_12": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_13": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_14": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_15": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_16": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_17": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_18": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_19": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_20": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_21": {
+      "display": true
+    },
+    "DATASS_VISOR_2803_22": {
+      "display": true
+    }
+  }
+}

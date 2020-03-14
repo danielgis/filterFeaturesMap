@@ -1,0 +1,17 @@
+{
+  "departamento": {
+    "url": "https://dportalgis.vivienda.gob.pe/dfdserver/rest/services/OGEI/Capas_de_Informacion_Base/MapServer/14",
+    "label": "nom_dep",
+    "value": "id_dpto"
+  },
+  "provincia": {
+    "url": "https://dportalgis.vivienda.gob.pe/dfdserver/rest/services/OGEI/Capas_de_Informacion_Base/MapServer/15",
+    "label": "nom_prov",
+    "value": "id_prov"
+  },
+  "distrito": {
+    "url": "https://dportalgis.vivienda.gob.pe/dfdserver/rest/services/OGEI/Capas_de_Informacion_Base/MapServer/16",
+    "label": "nom_dist",
+    "value": "id_dist"
+  }
+}

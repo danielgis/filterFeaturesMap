@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "DATASS",
+      "desc": "",
+      "operator": "=",
+      "defaultVal": "",
+      "appendSameLayer": true,
+      "appendSameLayerConjunc": "OR",
+      "caseSearch": false,
+      "layers": [
+        {
+          "layer": "datass_7443.7",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": true
+        },
+        {
+          "layer": "datass_7443.8",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        },
+        {
+          "layer": "datass_7443.9",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        },
+        {
+          "layer": "datass_7443.11",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        },
+        {
+          "layer": "datass_7443.12",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        },
+        {
+          "layer": "datass_7443.13",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        },
+        {
+          "layer": "datass_7443.14",
+          "field": "nom_dep",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        }
+      ]
+    }
+  ],
+  "persistOnClose": false,
+  "simpleMode": true,
+  "optionsMode": true,
+  "webmapAppendMode": false,
+  "slAppendChoice": "OR",
+  "zoomMode": true,
+  "headerText": "El grupo a filtrar contiene las capas<div><br></div><div>    Centro Poblado con servicio</div><div><ul><li>Administrado por una eps</li><li>Con sistema<br></li><li>Abastecido por centro poblado vecino</li></ul><div>    Centro Poblado sin servicio</div><ul><li>Camión, cisterna o similar</li><li>Manantial, pozo, agua de lluvia</li><li>Río, lago, laguna</li><li>Otro</li></ul></div>",
+  "hideHeaderSelection": false
+}
